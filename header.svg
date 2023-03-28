@@ -9,8 +9,8 @@
                 }
 
                 .text {
-                    width: 9ch;
-                    animation: typing 1.5s steps(9), blink .5s step-end infinite alternate;
+                    width: 17ch;
+                    animation: typing 1.5s steps(17), blink .5s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
@@ -20,6 +20,15 @@
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
+
+                .hand {
+                    opacity: 0;
+                    transform: rotate(0deg);
+                    animation:
+                        fadeIn 0.5s ease-in-out,
+                        wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) 2s;
+                }
+
 
                 @keyframes typing {
                     from {
@@ -38,10 +47,29 @@
                         border-color: rgba(254, 0, 255, 1);
                     }
                 }
+
+                @keyframes wave {
+                    from {
+                        transform: rotate(0deg);
+                    }
+
+                    50% {
+                        transform: rotate(45deg);
+                        /* Hand raised */
+                        opacity: 1;
+                        /* Fully visible at mid-point */
+                    }
+
+                    to {
+                        transform: rotate(0deg);
+                        opacity: 1;
+                    }
+                }
             </style>
             <div class="wrapper">
                 <div class="text">
-                    Welcome, I'm Luke.
+                    <span>Welcome, I&apos;m LUKE.</span>
+                    <span class="hand">👋</span>
                 </div>
             </div>
         </div>
