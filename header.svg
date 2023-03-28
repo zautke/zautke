@@ -80,7 +80,9 @@
                     <span>House of LUKE</span>
 
                 </div>
-                <div class="hand">👋</div>
+                <div class="hand">
+                    <span>👋</span>
+                </div>
             </div>
         </div>
     </foreignObject>
