@@ -4,12 +4,14 @@
             <style>
                 .wrapper {
                     height: 100vh;
-                    display: grid;
-                    place-items: left;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
                 }
 
                 .text {
-                    display: inline-block;
+                    display: flex;
                     width: 13ch;
                     animation: typing 1.5s steps(13), blink .5s step-end infinite alternate;
                     white-space: nowrap;
@@ -23,7 +25,7 @@
                 }
 
                 .hand {
-                    display: inline-block;
+                    display: flex;
                     font-size: 2em;
                     opacity: 0;
                     animation:
