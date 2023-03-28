@@ -9,8 +9,8 @@
                 }
 
                 .text {
-                    width: 17ch;
-                    animation: typing 3s steps(17), blink .5s step-end infinite alternate;
+                    width: 12ch;
+                    animation: typing 1.5s steps(1), blink .5s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
@@ -55,9 +55,7 @@
 
                     50% {
                         transform: rotate(45deg);
-                        /* Hand raised */
                         opacity: 1;
-                        /* Fully visible at mid-point */
                     }
 
                     to {
@@ -68,7 +66,7 @@
             </style>
             <div class="wrapper">
                 <div class="text">
-                    <span>Welcome, I&apos;m LUKE.</span>
+                    <span>House of LUKE</span>
                     <span class="hand">👋</span>
                 </div>
             </div>
