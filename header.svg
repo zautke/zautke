@@ -26,7 +26,7 @@
                     transform: rotate(0deg);
                     animation:
                         fadeIn 0.5s ease-in-out 2s,
-                        wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) 5s;
+                        /*wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) 5s;*/
                 }
 
 
@@ -58,6 +58,7 @@
                     }
                 }
 
+                /*
                 @keyframes wave {
                     from {
                         transform: rotate(0deg);
@@ -72,13 +73,14 @@
                         transform: rotate(0deg);
                         opacity: 1;
                     }
-                }
+                }*/
             </style>
             <div class="wrapper">
                 <div class="text">
                     <span>House of LUKE</span>
-                    <span class="hand">👋</span>
+
                 </div>
+                <div class="hand">👋</div>
             </div>
         </div>
     </foreignObject>
