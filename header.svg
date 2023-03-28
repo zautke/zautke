@@ -3,9 +3,9 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .wrapper {
-                    height: 100vh;
+                    //height: 100vh;
                     display: grid;
-                    place-items: left;
+                    place-items: center;
                 }
 
                 .text {
@@ -78,7 +78,7 @@
             </style>
             <div class="wrapper">
                 <div class="text">
-                    <span>Codevault of LUKE 👋</span>
+                    <span>Codevault of LUKE.</span>
                 </div>
             </div>
         </div>
