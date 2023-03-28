@@ -6,7 +6,7 @@
  </a>
 </div>
 
-<div align="center">
+<!--<div align="center">
     <img src="test.svg" width="400" height="400" alt="saluation">
 </div>
 
@@ -28,5 +28,5 @@ This is a title that can be manipulated.
 
 ## ![plot](./subTitle.svg)
 
-This is a sub-title with cyan color but can be manipulated
+This is a sub-title with cyan color but can be manipulated-->
 

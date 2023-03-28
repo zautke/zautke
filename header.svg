@@ -4,14 +4,11 @@
             <style>
                 .wrapper {
                     height: 100vh;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: row;
+                    display: grid;
+                    place-items: left;
                 }
 
                 .text {
-                    display: flex;
                     width: 13ch;
                     animation: typing 1.5s steps(13), blink .5s step-end infinite alternate;
                     white-space: nowrap;
@@ -25,7 +22,7 @@
                 }
 
                 .hand {
-                    display: flex;
+                    display: inline-block;
                     font-size: 2em;
                     opacity: 0;
                     animation:
@@ -81,10 +78,7 @@
             </style>
             <div class="wrapper">
                 <div class="text">
-                    <span>House of LUKE</span>
-                </div>
-                <div class="hand">
-                    <span>👋</span>
+                    <span>House of LUKE <span class="hand">👋</span></span>
                 </div>
             </div>
         </div>
