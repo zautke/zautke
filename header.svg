@@ -5,7 +5,7 @@
                 .wrapper {
                     height: 100vh;
                     display: grid;
-                    place-items: center;
+                    place-items: left;
                 }
 
                 .text {
@@ -78,9 +78,8 @@
             <div class="wrapper">
                 <div class="text">
                     <span>House of LUKE</span>
-
                 </div>
-                <div class="hand">
+                <div>
                     <span>👋</span>
                 </div>
             </div>
