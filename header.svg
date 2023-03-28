@@ -9,6 +9,7 @@
                 }
 
                 .text {
+                    display: inline-block;
                     width: 13ch;
                     animation: typing 1.5s steps(13), blink .5s step-end infinite alternate;
                     white-space: nowrap;
@@ -22,8 +23,9 @@
                 }
 
                 .hand {
+                    display: inline-block;
+                    font-size: 2em;
                     opacity: 0;
-                    transform: rotate(0deg);
                     animation:
                         fadeIn 0.5s ease-in-out 2s,
                         /*wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) 5s;*/
@@ -79,7 +81,7 @@
                 <div class="text">
                     <span>House of LUKE</span>
                 </div>
-                <div>
+                <div class="hand">
                     <span>👋</span>
                 </div>
             </div>
