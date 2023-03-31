@@ -7,12 +7,11 @@
                     width: 100%;
                     display: grid;
                     place-items: center;
-                    border: 1px solid red;
                 }
 
                 .text {
-                    width: 13ch;
-                    animation: typing 1.5s steps(13), blink .5s step-end infinite alternate;
+                    width: 18ch;
+                    animation: typing 1.5s steps(18), blink .5s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 3px solid;
