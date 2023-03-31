@@ -1,6 +1,6 @@
 <!-- 2.6.7 -->
 
-<div style="width: 100vw;" align="center">
+<div>
  <a class="link" href="https://github.com/zautke/zautke/blame/main/header.svg">
   <img class="image" src="header.svg" alt="Click to see the source">
  </a>
