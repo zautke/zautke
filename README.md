@@ -4,9 +4,9 @@
  <a class="link" href="https://github.com/zautke/zautke/blame/main/header.svg">
   <img class="image" src="header.svg" alt="Click to see the source">
  </a>
-  <a class="link" href="https://github.com/zautke/zautke/blame/main/hand.svg">
+  <!--<a class="link" href="https://github.com/zautke/zautke/blame/main/hand.svg">
   <img class="image" src="hand.svg" alt="Click to see the source">
- </a>
+ </a>-->
 </div>
 
 <!--<div align="center">
