@@ -3,8 +3,8 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .wrapper {
-                    height: 100vh;
-                    width: 100vw;
+                    height: 100%;
+                    width: 100%;
                     display: grid;
                     place-items: center;
                     border: 1px solid red;
