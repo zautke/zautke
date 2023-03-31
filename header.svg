@@ -21,15 +21,14 @@
                     -webkit-text-fill-color: transparent;
                 }
 
-                <!--.hand {
+                .hand {
                     display: inline-block;
                     font-size: 2em;
                     opacity: 0;
                     animation:
                         fadeIn 0.5s ease-in-out 2s,
                         /*wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) 5s;*/
-                }-->
-
+                }
 
                 @keyframes typing {
                     from {
@@ -59,7 +58,6 @@
                     }
                 }
 
-                /*
                 @keyframes wave {
                     from {
                         transform: rotate(0deg);
@@ -74,11 +72,10 @@
                         transform: rotate(0deg);
                         opacity: 1;
                     }
-                }*/
             </style>
             <div class="wrapper">
                 <div class="text">
-                    <span>Codevault of LUKE.</span>
+                    <h1>Codevault of LUKE. <div class="hand">👋</div></h1>
                 </div>
             </div>
         </div>
