@@ -1,6 +1,6 @@
 <!-- 2.6.7 -->
 
-<div style="width: 100%; height: 100%; align: left">
+<div style="width: 100&; height: 100%; align: left">
     <a href="https://github.com/zautke/zautke/blame/main/hand.svg">
         <img  style="width: 50px" src="hand2.svg" alt="Click to see the source">
     </a>
